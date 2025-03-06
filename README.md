@@ -140,27 +140,7 @@ curl -X POST http://localhost:3000/register \
 - Management UI: http://localhost:15672
 - Default credentials: guest/guest
 
-### Kafka
-- No built-in UI, but you can use tools like:
-  - Kafdrop
-  - Kafka Manager
-  - Conduktor
 
-## Key Differences Between RabbitMQ and Kafka
-
-### RabbitMQ
-- Queue-based messaging
-- Message acknowledgment
-- Message persistence
-- Fair dispatch
-- Simple routing
-
-### Kafka
-- Topic-based messaging
-- Partitioning
-- Consumer groups
-- Message persistence
-- Stream processing capabilities
 
 ## Environment Variables
 
@@ -178,11 +158,3 @@ KAFKA_BROKERS=localhost:9092
 PORT=<service_port>
 ```
 
-## Development
-
-- Uses nodemon for auto-reloading
-- Environment variables for configuration
-- Docker for message broker setup
-- Express.js for HTTP endpoints
-
-# message_broker
